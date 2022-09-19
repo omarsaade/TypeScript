@@ -107,9 +107,12 @@ iza 5ala2et test.js 7ad el src w badak tshuf el console.log
 
     "noImplicitAny": false /* Enable error reporting for expressions and declarations with an implied 'any' type. */,
 
+======================================
+Learn Typescript In Arabic 2022 - #09 - Function Optional and Default Parameters
 
 
 
+    
 
 
 

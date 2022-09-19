@@ -203,3 +203,34 @@ function showDetails(name: string, age: number, salary: number): string {
 console.log(showDetails("Osama", 40, 5000));
 
 // ========================================================
+
+//==
+// Learn Typescript In Arabic 2022 - #09 - Function Optional and Default Parameters
+//                                                       optional
+// function showData(name: string , age: number, country?: string) {
+//   return `${name} - ${age} - ${country}`;
+// }
+
+// //Expected 2-3 arguments, but got 1.ts(2554)
+// console.log(showData("Osama"));
+
+// ======================================================
+
+// Learn Typescript In Arabic 2022 - #09 - Function Optional and Default Parameters
+//                                                   optional
+// function showData(name?: string, age: number, country: string) {
+//   return `${name} - ${age} - ${country}`;
+// }
+// //A required parameter cannot follow an optional parameter.ts(1016)
+// console.log(showData("Osama", 40, "Egypt"));
+
+// answerrrrrrrrrrrrrrrrrrr
+
+function showData(name?: string, age?: number, country?: string) {
+  return `${name} - ${age} - ${country}`;
+}
+//A required parameter cannot follow an optional parameter.ts(1016)
+console.log(showData("Osama", 40));
+// Osama - 40 - undefined
+
+// ==========================================
