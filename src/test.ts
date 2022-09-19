@@ -92,7 +92,114 @@ let arrayFive: (string | number | string[] | boolean)[] = [
 
 // w fi y3almak hik iza bta3mul hover 3laya
 
+/*
 let arraysix = [1, 2, 3, 4, "A", "B", "C", ["C", "D"], true, false];
 
 //         Learn Typescript In Arabic 2022 - #08 - Type
 //        Annotations With Function
+
+let showMsg = true;
+
+function showDetails(name: string, age: number, salary: number) {
+  if (showMsg) {
+    return `Hello ${name} , Age Is ${age} , Salary Is`;
+  }
+}
+
+console.log(showDetails("Osama", 40, 5000));
+*/
+// ============================
+
+/*
+
+let showMsg = true;
+
+function showDetails(name: string, age: number, salary: number) {
+
+  if (showMsg) {
+    return `Hello ${name} , Age Is ${age} , Salary Is`;
+  }
+  //imolicit return
+  return `No data to show`;
+}
+
+console.log(showDetails("Osama", 40, 5000));
+
+*/
+// =========================================
+
+// let showMsg = true;
+
+// function showDetails(name: string, age: number, salary: number) {
+//   // noUnusedLocals : true
+//   // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+
+//   let test = 10;
+//   if (showMsg) {
+//     return `Hello ${name} , Age Is ${age} , Salary Is , test Variable ${test}`;
+//   }
+//   //imolicit return
+//   return `No data to show`;
+// }
+
+// console.log(showDetails("Osama", 40, 5000));
+
+// =================================================
+
+// let showMsg = true;
+
+// function showDetails(name: string, age: number, salary: number) {
+//   // noUnusedLocals : true
+//   // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+
+//   let test = 10;
+//   if (showMsg) {
+//     return `Hello ${name} , Age Is ${age} , Salary Is ${salary} , test Variable ${test}`;
+//   }
+//   //imolicit return
+//   return `No data to show`;
+// }
+
+// console.log(showDetails("Osama", 40, 5000));
+
+// ============================================
+
+// let showMsg = true;
+
+// //                   input                                      output
+// function showDetails(name: string, age: number, salary: number): string {
+//   // noUnusedLocals : true
+//   // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+
+//   let test = 10;
+//   if (showMsg) {
+//     return `Hello ${name} , Age Is ${age} , Salary Is ${salary} , test Variable ${test}`;
+//   }
+//   //imolicit return
+//   return `No data to show`;
+// }
+
+// console.log(showDetails("Osama", 40, 5000));
+
+// ___________________________________________________________
+
+let showMsg = true;
+
+// output string yaane lezem el function tabe3te traje3le string
+//                   input                                      output
+function showDetails(name: string, age: number, salary: number): string {
+  // noUnusedLocals : true
+  // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+
+  let test = 10;
+  if (showMsg) {
+    return `Hello ${name} , Age Is ${age} , Salary Is ${salary} , test Variable ${test}`;
+  }
+  //imolicit return
+  return `No data to show`;
+  // return 100;
+}
+
+console.log(showDetails("Osama", 40, 5000));
+
+// ========================================================

@@ -77,6 +77,39 @@ iza 5ala2et test.js 7ad el src w badak tshuf el console.log
 
 
 
+//         Learn Typescript In Arabic 2022 - #08 - Type
+//        Annotations With Function
+
+
+--Type Annotations
+
+
+--noImplicitReturns
+--will check all Code Paths in A Function To ensure the return a value
+
+    "noImplicitReturns": true,                        /* Enable error reporting for codepaths that do not explicitly return in a function. */
+
+
+
+--noUnusedLocals
+----Report Errors on Unused Local Variables
+
+    "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+
+
+--noUnusedParameters
+-----Report Errors on Unused Parameters In Functions.
+
+    "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read. */
+
+
+
+
+    "noImplicitAny": false /* Enable error reporting for expressions and declarations with an implied 'any' type. */,
+
+
+
+
 
 
 
