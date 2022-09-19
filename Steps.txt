@@ -1,0 +1,84 @@
+Typescript is not a library
+
+1-install node js
+2- globally ?   npm i -g typescript
+3-tsc -v
+4- create ts file
+6 -compile js file
+7-check ts playground
+
+8 -ts byn3amalo transpilation aw compile la js code
+how ?  
+            tsc index.ts
+
+-------------------------------------------------
+create configuration and watches files
+
+how to watch the file ? we dont want to run tsc index.ts every time , so we need to watch 
+how ?
+tsc -h          for helping
+tsc -w index.ts       //heda byenshe2o bi nafes el folder 3ade , 7ad ba3dun
+
+
+=====================================
+7zof el index.js
+
+w hala2 run     tsc --init   shu bta3mul ?
+btnesho2 file esmo tsconfig.json
+w fina n3adel 3le
+
+btektob sass code w baada byet3melo compile la css code
+mihsen el browser yebda yshuf el css code heda w yet3amal ma3o
+yaane ana lama betktob sass byetla3 bektebo bi folder esmo src
+
+w hayda el src byet7awal lal dist folder w bi tale3 malaf el css
+yalle el browser lah yshufo bi folder esmon dist
+dist : distribution folder
+
+=============================
+same for javascript
+
+3ando folder emso src fia el javascript w byen3amal compile baadenn
+w btruh men baada 3al dist folder yalle fi el javascript file
+yalle lah yet3amal ma3a el browser 3ala tul.
+
+now we go the tsconfig.json
+we change: 
+
+rootDir : "./src"   hon fi el typescript yale bado yen3amla compile
+outDir :"./dist"   where to compile?  to dist folder w tab3an mn3arefon
+
+removeComments : true
+sourceMap: true
+=======================
+now mne5la2 bel src file el ts yalli badde..3a kayfe w men baada
+mna3mul el compile ? kif ?
+
+mnektob            tsc  
+w hye bt5ela2 folder dist la hala yala bshufo el browser
+
+
+---->        tsc -w
+hala2 sar ma3 kell save byneshe2 el dist folder
+hata law mhayto..li2an enta 5alas hatoo bell watch mode
+hala2 sar bi compile 24/7
+w ma3 kell save
+==========================================================================
+ 
+Statically typed language   Rust , C , C++
+
+Dynmically Typed language like php python javascript
+
+=======================================================
+iza 5ala2et test.js 7ad el src w badak tshuf el console.log
+ fike ta3mul node test.js
+ ==========================================================
+  
+
+
+
+
+
+
+
+
