@@ -13,10 +13,10 @@ function addo(n1, n2) {
 }
 console.log(addo(10, 20));
 console.log(typeof addo(10, 20));
-let all = "omar";
-all = "A";
-all = 100;
-all = true;
+let allmo = "omar";
+allmo = "A";
+allmo = 100;
+allmo = true;
 let myFriends = ["osama", "ali", "ahmed"];
 for (let i = 0; i < myFriends.length; i++) {
     console.log(myFriends[i].repeat(3));
@@ -87,13 +87,13 @@ theNamo = "sami";
 let allm = 10;
 allm = 100;
 allm = "hello";
-function getActions(btns) {
+function getAction(btns) {
     console.log(`Actions For Button Up Is ${btns.up}`);
     console.log(`Actions For Button Right Is ${btns.right}`);
     console.log(`Actions For Button Down Is ${btns.down}`);
     console.log(`Actions For Button Left Is ${btns.left}`);
 }
-getActions({
+getAction({
     up: "Jump",
     right: "Go Right",
     down: "Go Down",

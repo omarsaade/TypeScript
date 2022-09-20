@@ -66,24 +66,33 @@ if (lvl === "Easy") {
 //
 //====================================================
 
+function getHardSeconds(): number {
+  return 3;
+}
+
 //how to refer from enum to another enum
 enum kids {
-  Five = 25,
+  Five = 25, //25 seconds
   Seven = 20,
   Ten = 15,
 }
 
 enum Level {
+  // Insane, if we add it like this , it has 0
   kid = kids.Ten,
+  Normal = 4,
   Easy = 9,
-  Medium = 6,
-  Hard = 3,
+  // Medium = 6,
+  // Medium = Easy,
+  Medium = Easy - 3,
+  Hard = getHardSeconds(),
+  // Insane = 100 we have to initialize here
 }
 
 let lvl: string = "Easy";
 
 if (lvl === "Easy") {
-  console.log(`The Level Is ${lvl} And Number Of Seconds Is ${Level.kid}`);
+  console.log(`The Level Is ${lvl} And Number Of Seconds Is ${Level.Medium}`);
 }
 
 // "preserveConstEnums": true,                       /* Disable erasing 'const enum' declarations in generated code. */

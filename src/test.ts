@@ -33,11 +33,11 @@ console.log(typeof addo(10, 20));
 ////////////////////////////////
 // video 6
 //                                     Type Annotations with arrays
-let all: string | number | boolean = "omar";
+let allmo: string | number | boolean = "omar";
 
-all = "A";
-all = 100;
-all = true;
+allmo = "A";
+allmo = 100;
+allmo = true;
 
 let myFriends: string[] = ["osama", "ali", "ahmed"];
 
@@ -308,14 +308,14 @@ type Last = Buttons & {
   x: boolean;
 };
 
-function getActions(btns: Last) {
+function getAction(btns: Last) {
   console.log(`Actions For Button Up Is ${btns.up}`);
   console.log(`Actions For Button Right Is ${btns.right}`);
   console.log(`Actions For Button Down Is ${btns.down}`);
   console.log(`Actions For Button Left Is ${btns.left}`);
 }
 
-getActions({
+getAction({
   up: "Jump",
   right: "Go Right",
   down: "Go Down",
@@ -324,4 +324,3 @@ getActions({
 });
 
 // ==========================================================================================================
-
