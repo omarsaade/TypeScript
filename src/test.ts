@@ -20,15 +20,15 @@ allo = 100;
 //fik ta3mul update 3ade w mafi mechkle.
 let allVars; //Any
 
-function add(n1: number, n2: number) {
+function addo(n1: number, n2: number) {
   return n1 + n2;
 }
 
 // console.log(add(10, 20));
 // console.log(typeof add(10, 20));
 
-console.log(add(10, 20));
-console.log(typeof add(10, 20));
+console.log(addo(10, 20));
+console.log(typeof addo(10, 20));
 
 ////////////////////////////////
 // video 6
@@ -156,7 +156,7 @@ console.log(showDetails("Osama", 40, 5000));
 //   if (showMsg) {
 //     return `Hello ${name} , Age Is ${age} , Salary Is ${salary} , test Variable ${test}`;
 //   }
-//   //imolicit return
+//   //implicit return
 //   return `No data to show`;
 // }
 
@@ -195,7 +195,7 @@ function showDetails(name: string, age: number, salary: number): string {
   if (showMsg) {
     return `Hello ${name} , Age Is ${age} , Salary Is ${salary} , test Variable ${test}`;
   }
-  //imolicit return
+  //implicit return
   return `No data to show`;
   // return 100;
 }
@@ -234,3 +234,94 @@ console.log(showData("Osama", 40));
 // Osama - 40 - undefined
 
 // ==========================================
+
+function addAll(...nums: number[]): number {
+  let result = 0;
+  // for (let i = 0; i < nums.length; i++) {
+  //   result += nums[i];
+  // }
+  nums.forEach((num) => (result += num));
+  return result;
+}
+
+// console.log(addAll(10, 20, 30, 100, true));
+// Argument of type 'boolean' is not assignable to parameter of type 'number'.
+
+//answer , sar jaweba +1
+console.log(addAll(10, 20, 30, 100, 10.5, +true));
+// testing
+//    tsc
+//  node dist/test.js
+//                           171,5
+
+// =================================
+
+//anonymous function
+//                                       lezem tarje3 e5er shi number
+const adds = function (num1: number, num2: number): number {
+  return num1 + num2;
+};
+
+console.log(adds(10, 20)); //30
+
+// =========================================================
+
+// arrow function
+
+const addwithArrow = (num1: number, num2: number): number => num1 + num2;
+
+console.log(addwithArrow(10, 20)); //30
+
+// =================================================================
+
+//                          Alias
+type st = string;
+
+let theNamo: st = "Elzero";
+theNamo = "sami";
+// ============================================
+
+type standnum = string | number;
+let allm: standnum = 10;
+allm = 100;
+allm = "hello";
+
+// ====================================================
+
+// video 13
+
+/*
+
+Data Types
+--Advanced Type Alias
+
+*/
+
+type Buttons = {
+  up: string;
+  right: string;
+  down: string;
+  left: string;
+};
+
+type Last = Buttons & {
+  x: boolean;
+};
+
+function getActions(btns: Last) {
+  console.log(`Actions For Button Up Is ${btns.up}`);
+  console.log(`Actions For Button Right Is ${btns.right}`);
+  console.log(`Actions For Button Down Is ${btns.down}`);
+  console.log(`Actions For Button Left Is ${btns.left}`);
+}
+
+getActions({
+  up: "Jump",
+  right: "Go Right",
+  down: "Go Down",
+  left: "Go Left",
+  x: true,
+});
+
+// ==========================================================================================================
+
