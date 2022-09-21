@@ -35,17 +35,17 @@ interface Admin extends User, Moderator {
   protect?: boolean;
 }
 
-let user: Admin = {
-  id: 100,
-  username: "elzero",
-  country: "Egypt",
-  role: "Mod",
-  protect: true,
-};
+// let user: Admin = {
+//   id: 100,
+//   username: "elzero",
+//   country: "Egypt",
+//   role: "Mod",
+//   protect: true,
+// };
 
-console.log(user.id);
+// console.log(user.id);
 
-//
+// //
 //
 //
 //
