@@ -151,6 +151,10 @@ class User {
         return `Your Email is ${this.email}`;
     }
 
+    writeMsg() {
+        return `Message from Parent Class`;
+    }
+
     //static Methods
     static countObjects = function () {
         return `${this.counter} Objects Created.`;
@@ -193,6 +197,11 @@ class Admin extends User {
     adminMsg() {
         return `You Are Admin`
     }
+    //method override
+    writeMsg() {
+        return `Message from child Class`;
+    }
+
 }
 
 
@@ -202,3 +211,6 @@ console.log(admin1.sayHi()); //we can
 // console.log(admin1.counter); we cant bcz its static
 // console.log(admin1.);
 
+//                     How to override a method ?
+
+console.log(admin1.writeMsg());
