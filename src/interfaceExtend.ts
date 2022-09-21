@@ -44,3 +44,42 @@ let user: Admin = {
 };
 
 console.log(user.id);
+
+//
+//
+//
+//
+
+//             interface final discussion
+//              video 26
+//       Interfcae vs type aliases
+//        take A Look HTMLELement Interface
+
+let el = document.getElementById("id") as HTMLElement;
+
+//HomePage
+//1- open interface
+//
+interface Settings {
+  readonly theme: boolean;
+  font: string;
+}
+
+//articles
+// 2- added something ReOpen
+interface Settings {
+  sidebar?: boolean;
+}
+
+//Contact Page
+interface Settings {
+  external: boolean;
+}
+
+//initialize
+let userSettings: Settings = {
+  theme: true,
+  font: "Open Sans",
+  sidebar: false,
+  external: true,
+};
