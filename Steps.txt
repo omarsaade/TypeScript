@@ -168,11 +168,71 @@ allm = 100;
 allm = "hello";
 
 ====================================================
+how to create a private field in normal javascript ?
+foe example for usernam , we can use the #
+like this
 
-Type Alias Advanced
+"use strict";
+class User {
+    #usernam
+    constructor(usernam, salary) {
+        this.#usernam = usernam;
+        this.salary = salary;
+        this.msg = function () {
+            return `Hello ${this.usernam} Your salary Is ${this.salary}`;
+        };
+    }
+    sayMsg() {
+        return `Hello ${this.usernam} Your Salary Is ${this.salary}`;
+    }
+}
+let userOne = new User("Elzero", 6000);
+
+
+
+//now this will not run bcz its a private field (li tahet)
+     console.log(userOne.#username);
 
 
 
 
+console.log(userOne);
+console.log(userOne.msg());
+console.log(userOne.sayMsg());
+//# sourceMappingURL=classannotation.js.map
+
+
+=================================================
+kif fine etwasal ma3 private property men barra el class ? 
+iza kenet ma beda3am el private keyword , metel le python?
+
+
+
+usinG _
+
+LIKE THIS:
+
+class User {
+  //type annotation
+  msg: () => string;
+  constructor(
+    _usernam: string,                      //here
+    salary: number,
+  ) {
+    this.msg = function () {
+      return `Hello ${this._usernam} Your salary Is ${this.salary}`;
+    };
+  }
+  //method
+  sayMsg() {
+    return `Hello ${this._usernam} Your Salary Is ${this.salary}`;
+  }
+}
+
+let userOne = new User("Elzero", 6000, "tripoli");
+console.log(userOne);
+
+
+==========================================================
 
 

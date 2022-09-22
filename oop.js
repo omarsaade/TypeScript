@@ -135,7 +135,7 @@ class User {
 
     //Static Properties
     static counter = 0;
-
+ 
     constructor(name, email) {
         this.name = name;
         this.email = email;
