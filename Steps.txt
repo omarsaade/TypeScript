@@ -1,3 +1,9 @@
+Typescript IS javascript With TYPES
+BT5ALIL TETHAKEM BEL TYPE W MA TSIR EL OSSA
+MARJUHA LI HYE "any" data type
+==================================
+
+
 Typescript is not a library
 
 1-install node js
