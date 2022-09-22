@@ -1,1 +1,1 @@
-{"version":3,"file":"interfaceExtend.js","sourceRoot":"","sources":["../src/interfaceExtend.ts"],"names":[],"mappings":";AAyDA,IAAI,EAAE,GAAG,QAAQ,CAAC,cAAc,CAAC,IAAI,CAAgB,CAAC;AAsBtD,IAAI,YAAY,GAAa;IAC3B,KAAK,EAAE,IAAI;IACX,IAAI,EAAE,WAAW;IACjB,OAAO,EAAE,KAAK;IACd,QAAQ,EAAE,IAAI;CACf,CAAC"}
+{"version":3,"file":"interfaceExtend.js","sourceRoot":"","sources":["../src/interfaceExtend.ts"],"names":[],"mappings":""}

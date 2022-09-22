@@ -20,6 +20,7 @@ let user: Moderator = {
 console.log(user.id);
 */
 
+/*
 interface User {
   id: number;
   username: string;
@@ -60,6 +61,8 @@ let el = document.getElementById("id") as HTMLElement;
 //HomePage
 //1- open interface
 //
+/*
+
 interface Settings {
   readonly theme: boolean;
   font: string;
@@ -76,10 +79,13 @@ interface Settings {
   external: boolean;
 }
 
-//initialize
+/*
+//  initialize
 let userSettings: Settings = {
   theme: true,
   font: "Open Sans",
   sidebar: false,
   external: true,
 };
+
+*/
