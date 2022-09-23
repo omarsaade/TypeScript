@@ -1,20 +1,16 @@
 //
 // Type Annotations with Object
 
-/*
 let myObject = {
   username: "Elzero",
   id: 100,
   hire: true,
 };
 
-*/
-
-/*
 let myObject: {
-  username: string,
-  id: number,
-  hire: boolean,
+  username: string;
+  id: number;
+  hire: boolean;
 } = {
   username: "Elzero",
   id: 100,
@@ -26,12 +22,10 @@ myObject.username = "osama";
 myObject.id = 101;
 myObject.hire = false;
 // console.log(myObject);
-console.log(myObject.username); 
+console.log(myObject.username);
 console.log(myObject.id);
-*/
 
 // ==========================================
-/* 
 
 let myObject: {
   //   username: string;
@@ -60,8 +54,6 @@ myObject.hire = false;
 console.log(myObject.username);
 console.log(myObject.id);
 console.log(myObject.skills.one);
-
-*/
 
 // ========================================
 

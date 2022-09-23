@@ -92,7 +92,6 @@ let arrayFive: (string | number | string[] | boolean)[] = [
 
 // w fi y3almak hik iza bta3mul hover 3laya
 
-/*
 let arraysix = [1, 2, 3, 4, "A", "B", "C", ["C", "D"], true, false];
 
 //         Learn Typescript In Arabic 2022 - #08 - Type
@@ -107,15 +106,12 @@ function showDetails(name: string, age: number, salary: number) {
 }
 
 console.log(showDetails("Osama", 40, 5000));
-*/
-// ============================
 
-/*
+// ============================
 
 let showMsg = true;
 
 function showDetails(name: string, age: number, salary: number) {
-
   if (showMsg) {
     return `Hello ${name} , Age Is ${age} , Salary Is`;
   }
@@ -125,61 +121,60 @@ function showDetails(name: string, age: number, salary: number) {
 
 console.log(showDetails("Osama", 40, 5000));
 
-*/
 // =========================================
 
-// let showMsg = true;
+let showMsg = true;
 
-// function showDetails(name: string, age: number, salary: number) {
-//   // noUnusedLocals : true
-//   // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+function showDetails(name: string, age: number, salary: number) {
+  // noUnusedLocals : true
+  // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
 
-//   let test = 10;
-//   if (showMsg) {
-//     return `Hello ${name} , Age Is ${age} , Salary Is , test Variable ${test}`;
-//   }
-//   //imolicit return
-//   return `No data to show`;
-// }
+  let test = 10;
+  if (showMsg) {
+    return `Hello ${name} , Age Is ${age} , Salary Is , test Variable ${test}`;
+  }
+  //imolicit return
+  return `No data to show`;
+}
 
-// console.log(showDetails("Osama", 40, 5000));
+console.log(showDetails("Osama", 40, 5000));
 
 // =================================================
 
-// let showMsg = true;
+let showMsg = true;
 
-// function showDetails(name: string, age: number, salary: number) {
-//   // noUnusedLocals : true
-//   // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+function showDetails(name: string, age: number, salary: number) {
+  // noUnusedLocals : true
+  // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
 
-//   let test = 10;
-//   if (showMsg) {
-//     return `Hello ${name} , Age Is ${age} , Salary Is ${salary} , test Variable ${test}`;
-//   }
-//   //implicit return
-//   return `No data to show`;
-// }
+  let test = 10;
+  if (showMsg) {
+    return `Hello ${name} , Age Is ${age} , Salary Is ${salary} , test Variable ${test}`;
+  }
+  //implicit return
+  return `No data to show`;
+}
 
-// console.log(showDetails("Osama", 40, 5000));
+console.log(showDetails("Osama", 40, 5000));
 
 // ============================================
 
-// let showMsg = true;
+let showMsg = true;
 
-// //                   input                                      output
-// function showDetails(name: string, age: number, salary: number): string {
-//   // noUnusedLocals : true
-//   // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+//                   input                                      output
+function showDetails(name: string, age: number, salary: number): string {
+  // noUnusedLocals : true
+  // "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
 
-//   let test = 10;
-//   if (showMsg) {
-//     return `Hello ${name} , Age Is ${age} , Salary Is ${salary} , test Variable ${test}`;
-//   }
-//   //imolicit return
-//   return `No data to show`;
-// }
+  let test = 10;
+  if (showMsg) {
+    return `Hello ${name} , Age Is ${age} , Salary Is ${salary} , test Variable ${test}`;
+  }
+  //imolicit return
+  return `No data to show`;
+}
 
-// console.log(showDetails("Osama", 40, 5000));
+console.log(showDetails("Osama", 40, 5000));
 
 // ___________________________________________________________
 
@@ -204,25 +199,25 @@ console.log(showDetails("Osama", 40, 5000));
 
 // ========================================================
 
-//==
-// Learn Typescript In Arabic 2022 - #09 - Function Optional and Default Parameters
-//                                                       optional
-// function showData(name: string , age: number, country?: string) {
-//   return `${name} - ${age} - ${country}`;
-// }
+==
+Learn Typescript In Arabic 2022 - #09 - Function Optional and Default Parameters
+                                                      optional
+function showData(name: string , age: number, country?: string) {
+  return `${name} - ${age} - ${country}`;
+}
 
-// //Expected 2-3 arguments, but got 1.ts(2554)
-// console.log(showData("Osama"));
+//Expected 2-3 arguments, but got 1.ts(2554)
+console.log(showData("Osama"));
 
 // ======================================================
 
 // Learn Typescript In Arabic 2022 - #09 - Function Optional and Default Parameters
 //                                                   optional
-// function showData(name?: string, age: number, country: string) {
-//   return `${name} - ${age} - ${country}`;
-// }
-// //A required parameter cannot follow an optional parameter.ts(1016)
-// console.log(showData("Osama", 40, "Egypt"));
+function showData(name?: string, age: number, country: string) {
+  return `${name} - ${age} - ${country}`;
+}
+//A required parameter cannot follow an optional parameter.ts(1016)
+console.log(showData("Osama", 40, "Egypt"));
 
 // answerrrrrrrrrrrrrrrrrrr
 

@@ -1,5 +1,5 @@
 // Learn Typescript In Arabic 2022 - #25 - Interface Extend
-/*
+
 interface User {
   id: number;
   username: string;
@@ -18,9 +18,8 @@ let user: Moderator = {
 };
 
 console.log(user.id);
-*/
 
-/*
+// ==============================================
 interface User {
   id: number;
   username: string;
@@ -36,15 +35,16 @@ interface Admin extends User, Moderator {
   protect?: boolean;
 }
 
-// let user: Admin = {
-//   id: 100,
-//   username: "elzero",
-//   country: "Egypt",
-//   role: "Mod",
-//   protect: true,
-// };
+// ==================
+let user: Admin = {
+  id: 100,
+  username: "elzero",
+  country: "Egypt",
+  role: "Mod",
+  protect: true,
+};
 
-// console.log(user.id);
+console.log(user.id);
 
 // //
 //
@@ -61,7 +61,7 @@ let el = document.getElementById("id") as HTMLElement;
 //HomePage
 //1- open interface
 //
-/*
+
 
 interface Settings {
   readonly theme: boolean;
@@ -88,4 +88,4 @@ let userSettings: Settings = {
   external: true,
 };
 
- */
+ 

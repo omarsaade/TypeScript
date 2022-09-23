@@ -4,8 +4,6 @@ video 36
 
 */
 
-/*
-
 class Uso<T> {
   constructor(public value: T) {}
   show(msg: T): void {
@@ -17,13 +15,9 @@ let userOno = new Uso("imam");
 console.log(userOno.value);
 userOno.show("hisham");
 
-
-
 let userTwo = new Uso(100);
 console.log(userTwo.value);
 userTwo.show(100);
-
-*/
 
 //
 //

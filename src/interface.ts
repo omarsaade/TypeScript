@@ -11,7 +11,7 @@
 //---Use Read Only and Optional Operator
 
 // ================================================
-/*
+
 interface User {
   id?: number;
   readonly username: string;
@@ -26,10 +26,9 @@ function getData(data: User) {
 
 getData({ id: 200, username: "osama", country: "ksa" });
 // getData({username: "osama", country: "ksa" });
-*/
+
 // ======================
 
-/*
 let user: User = {
   id: 100,
   username: "Elzero",
@@ -39,13 +38,12 @@ let user: User = {
 user.country = "Syria";
 
 console.log(user);
-*/
+
 // ====================================
 
 //                          Video 23
 //    Interface Method And Parameters
 
-/*
 interface User {
   id: number;
   username: string;
@@ -77,13 +75,11 @@ console.log(user.sayHello());
 console.log(user.sayWelcome());
 console.log(user.getDouble(2));
 
-*/
 // =====================================================
 // Learn Typescript In Arabic 2022 - #24 - Interface Reopen And Use Cases
 //
 //
 
-/*
 //HomePage
 //1- open interface
 //
@@ -110,5 +106,3 @@ let userSettings: Settings = {
   sidebar: false,
   external: true,
 };
-
-*/
