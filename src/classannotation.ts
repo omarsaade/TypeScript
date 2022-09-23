@@ -1,8 +1,5 @@
 // Type Annotations With Class
 
-/*
-
-
 class User {
   //type annotation
   s: number;
@@ -28,22 +25,14 @@ console.log(userOne.s);
 console.log(userOne.msg());
 console.log(userOne.sayMsg());
 
-
-*/
 // =================================
 
-/* 
-  Learn Typescript In Arabic 2022 - #28 -
-Class Access Modifiers And Parameters Properties
+//   Learn Typescript In Arabic 2022 - #28 -
+// Class Access Modifiers And Parameters Properties
 
-Access Modifiers
-yaane metel el public , protected , private
+// Access Modifiers
+// yaane metel el public , protected , private
 
-
-
-*/
-
-/*
 class User {
   //type annotation
   private usernam: string;
@@ -70,8 +59,6 @@ console.log(userOne);
 console.log(userOne.msg());
 console.log(userOne.sayMsg());
 
-*/
-
 /*
 
 
@@ -82,9 +69,6 @@ console.log(userOne.sayMsg());
 
 FIna NEKTOB LI FO2 BI TARI2A TENYE
 */
-
-/*
-
 
 class User {
   //type annotation
@@ -113,6 +97,3 @@ console.log(userOne);
 // console.log(userOne.salary);
 console.log(userOne.msg());
 console.log(userOne.sayMsg());
-
-
-*/

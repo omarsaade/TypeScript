@@ -10,7 +10,6 @@
 // ----There A String-Based Enums
 //--------Theres Heterogeneous Enums [String + Number]
 
-/*
 // bas shakel heda , ma mesta3mlino
 const KIDS = 15;
 const EASY = 9;
@@ -33,7 +32,6 @@ if (lvl === "Easy") {
   console.log(`The Level Is ${lvl} And Number Of Seconds Is ${Level.Easy}`);
 }
 
-*/
 // ========================================
 // Enums PArt 2  - Data Types
 
@@ -46,7 +44,6 @@ if (lvl === "Easy") {
 
 // const enum Level {         fina nekteba hik
 
-/*
 enum Level {
   kid = 15,
   Easy = 9,
@@ -59,7 +56,7 @@ let lvl: string = "Easy";
 if (lvl === "Easy") {
   console.log(`The Level Is ${lvl} And Number Of Seconds Is ${Level.Easy}`);
 }
-/*
+
 // "preserveConstEnums": true,                       /* Disable erasing 'const enum' declarations in generated code. */
 
 //

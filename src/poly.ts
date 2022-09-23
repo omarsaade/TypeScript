@@ -41,3 +41,8 @@ let barOne = new Barbarian("ammur", 5);
 console.log(barOne.name);
 console.log(barOne.axeDurability);
 barOne.attack();
+
+console.log("hello");
+console.log('====================================');
+console.log();
+console.log('====================================');

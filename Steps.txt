@@ -42,6 +42,19 @@ yalle el browser lah yshufo bi folder esmon dist
 dist : distribution folder
 
 =============================
+
+fik tensho2 html file barra kelshi
+
+thet fi source bel body
+    <script src="dist/poly.js"></script>
+
+
+    heda li n3amalo compile w enta lezem tektob bel poly.ts
+    w tab3an lezem ta3mul tsc -w
+
+
+
+==========================
 same for javascript
 
 3ando folder emso src fia el javascript w byen3amal compile baadenn

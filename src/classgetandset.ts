@@ -3,7 +3,7 @@
 // Property 'usernam' is private and only accessible within class 'User'!!
 // kif fina n7ell el mechkle ?
 
-/*
+
 class User {
   //type annotation
   msg: () => string;
@@ -40,13 +40,13 @@ console.log(userOne.usernam);
 //w hatta 3addel 3laya
 
 
-*/
-/* Iza 3andak private property
-metel el username kif fina naccess
-3laya men barra el class ? encapsulation
 
-answer : 3an tari2 el getter wel setter lah e2dar access 3laya
-men barra el class  w 3adel kamen
+//  Iza 3andak private property
+// metel el username kif fina naccess
+// 3laya men barra el class ? encapsulation
+
+// answer : 3an tari2 el getter wel setter lah e2dar access 3laya
+// men barra el class  w 3adel kamen
 
 
 // fina na3mul el getter wel setter 3an tari2
@@ -56,4 +56,4 @@ men barra el class  w 3adel kamen
                 f2os refactor
                 generate get and set accessors
 
-*/
+

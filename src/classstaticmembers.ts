@@ -4,9 +4,6 @@
 // hol bi 5asso el class nafso....mesh el object li mnenshe2a
 // men el class
 
-/*
-
-
 class User {
   static created: number = 0;
   static getCount(): void {
@@ -23,11 +20,6 @@ let u2 = new User("abud");
 
 console.log(User.created);
 User.getCount();
-
-
-
-
-*/
 
 class User {
   //static property
